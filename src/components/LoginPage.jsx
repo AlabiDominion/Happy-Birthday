@@ -6,7 +6,7 @@ const LoginPage = ({ onLogin }) => {
   const [error, setError] = useState("");
 
   const handleLogin = () => {
-    if (inputCode === "InfiniteLove" && inputName === "Pookie") {
+    if (inputCode === "2025" && inputName === "Pookie") {
       onLogin();
     } else {
       setError("Invalid code. Try again!");
@@ -31,7 +31,7 @@ const LoginPage = ({ onLogin }) => {
           id="Name"
           value={inputName}
           onChange={(e) => setInputName(e.target.value)}
-          className="bg-[#ECE4DB] rounded-[16px] h-[50px]"
+          className="bg-[#ECE4DB] rounded-[16px] h-[50px] p-2 text-[]"
         />
         <label className="mt-[1rem] font-quicksand mb-1" htmlFor="Name">The password:</label>
         <input
