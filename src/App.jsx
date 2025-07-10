@@ -4,7 +4,7 @@ import WelcomePage from "./components/WelcomePage";
 import BirthdayCarousel from "./components/BirthdayCarousel";
 
 const App = () => {
-  const {page, setPage} = useState("login");
+  const [page, setPage] = useState("Login");
 
   return (
     <div className="min-h-screen bg-[#F5F0EA]">
