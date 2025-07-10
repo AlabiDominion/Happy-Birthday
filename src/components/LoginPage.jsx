@@ -23,12 +23,7 @@ const LoginPage = ({ onLogin }) => {
 
   return (
     <div className="LoginLoader min-h-screen flex flex-col items-center bg-[#F5F0EA] relative overflow-hidden">
-     
-      <img className="absolute top-0 left-0 z-[100]" src="./Ribbon.png" alt="decoration1" />
-      <img className="absolute z-[100] top-0 right-0" src="./ribbon2.png" alt="decoration2" />
-      <img className="absolute z-[100] bottom-0 right-0" src="./ribbon3.png" alt="decoration3" />
-
-      
+  
       <img className="mt-[4.8rem] mb-2" src="./logo.png" alt="logo" />
       <img src="./HAPPY.png" alt="Happy" />
       <img className="absolute top-[114px] z-[99]" src="./HappyBirthdayText.png" alt="Birthday" />
