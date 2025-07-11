@@ -38,7 +38,7 @@ const BirthdayCarousel = () => {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-[#F5F0EA] overflow-hidden BirthdayDiv">
       {/* Decorative background circles */}
-      <div className=" flex flex-col items-center justify-center w-[530px] bg-[#F5F0EA] h-[500px] border-[4px] border-[#837A6E] rounded-full absolute  -top-[38%] z-[99]">
+      <div className=" flex flex-col items-center justify-center w-[500px] bg-[#F5F0EA] h-[500px] border-[4px] border-[#837A6E] rounded-full absolute  -top-[35%] z-[99]">
         <img className="mt-[10rem] mb-4 " src="./logo.png" alt="" />
         <img className="absolute bottom-[22%]" src="./HAPPY.png" alt="" />
         <img
