@@ -117,6 +117,7 @@ const BirthdayCarousel = () => {
             src={slides[currentIndex].src}
             autoPlay
             loop
+            playsInline
             className="w-full h-full object-cover"
           />
         )}
