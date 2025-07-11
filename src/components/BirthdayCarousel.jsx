@@ -6,7 +6,7 @@ const BirthdayCarousel = () => {
       type: "image",
       src: "./OloriMi.jpg",
       header: "Olori Mi 👑",
-      text: `My baby ❤️ You light up my world.`,
+      text: `From the very first day I set my eyes on you, I was lost in the wonder of something so true. I remember it vividly like time slowed down, Your smile lit the room, turned my whole world around. I didn’t know then what destiny planned,But fate must have carved us with its own hand. You were the answer I didn’t know I’d been seeking, The calm in my storm, the warmth when I’m freezing. Since you came into my life, it’s been pure bliss, Days filled with laughter, sealed with your bliss.You brought me a joy so deep and so wide,That even my shadows have nowhere to hide. When the world feels heavy, you make it light, When hope seems dim, you make it bright. Your love is my refuge, my shelter, my song,With you in my arms is where I belong. You’re the beat in my heart, the breath in my chest, My reason to strive, to give only my best. I’ve known only happiness since you’ve been mine, A love so profound, it borders divine. For you are my sunrise after the night,The star that I wish on, my guiding light. I can’t imagine a day without you here,For your voice is my music, your touch so dear.So know this today and every day after, You’re my forever, my joy, my laughter. My promise to you is simple and true:As long as I live, I’ll always choose you.`,
       initials: "Ayomide",
     },
     {
@@ -54,13 +54,13 @@ const BirthdayCarousel = () => {
         </h1>
       </div>
 
-      <div className="absolute bottom-0 z-[99] mt-6 w-[80%] max-w-xs border border-[#837A6E] rounded-lg p-4 overflow-y-scroll max-h-[200px] h-[200px] bg-[#F5F0EA] text-center">
+      <div className="absolute bottom-0 z-[101] mt-6 w-[80%] max-w-xs border border-[#837A6E] rounded-lg p-4 overflow-y-scroll max-h-[200px] h-[200px] bg-[#F5F0EA] text-center">
         <p className="text-[#871058] text-lg font-quicksand ">
           {slides[currentIndex].text}
         </p>
       </div>
 
-      <p className="absolute bottom-5 right-5 rotate-[-40deg] z-[100] font-qwitcher text-[2rem]">
+      <p className="absolute bottom-5 right-5 rotate-[-40deg] z-[102] font-qwitcher text-[2rem]">
         {slides[currentIndex].initials}
       </p>
       {/* Carousel content */}
