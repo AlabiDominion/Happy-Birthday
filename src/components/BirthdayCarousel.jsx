@@ -20,17 +20,7 @@ const BirthdayCarousel = () => {
       type: "video",
       src: "./olamide.mp4",
       header: "Fish 🐟",
-      text: `Temitopeee!!!!
-My advicer
-My sister
-My special friend 
-Words can’t even describe how much I love and care for you
-At first I didn’t know we would becoming this close from roommates to sisters 
-I really don’t regret meeting you
-You are so nice, sweet and God fearing mentioned this three words cause they simply describe you,anyone should be lucky to have you in their life 
-On this day I pray God grants you all your heart desire and may his grace shine upon you!!!
-You shall soar higher unexpectedly and you shall be a great person
-You will always hold a special place in my heart😩🥹I love you baby`,
+      text: `Temitopeee!!!! My advicer My sister My special friend, Words can’t even describe how much I love and care for you, At first I didn’t know we would becoming this close from roommates to sisters, I really don’t regret meeting you, You are so nice, sweet and God fearing mentioned this three words cause they simply describe you,anyone should be lucky to have you in their life, On this day I pray God grants you all your heart desire and may his grace shine upon you!!!, You shall soar higher unexpectedly and you shall be a great person, You will always hold a special place in my heart😩🥹I love you baby`,
       initials: "Peacock",
     },
     {
@@ -85,6 +75,20 @@ You will always hold a special place in my heart😩🥹I love you baby`,
       Happy birthday to you, my sweetheart. You are a blessing to me and everyone around you. Your smile lights up the room, and your laughter is music to my ears. I am grateful for every moment we share, and I cherish the bond we have. May this year bring you as much joy as you bring to others. Keep shining, my love!`,
       initials: "Tumise",
     },
+    {
+      type: "video",
+      src: "./Dominion1.mp4",
+      header: "Hey Pookie ♾️💞",
+      text: `I didn’t just find a partner; I found my best friend, my confidant, and the other half of my soul. You are the first person I want to talk to when something amazing happens—and the one I run to when life feels too heavy to carry alone. Your laughter is my favorite sound, your smile my favorite sight, and your happiness my truest prayer. You understand me in ways no one else does. Even in silence, you know what I’m feeling. When I’m lost in my thoughts, you’re the gentle voice that brings me back. When I’m frustrated or afraid, you’re the calm that steadies me. I love that we can be completely silly together, with inside jokes that no one else gets. That we can talk for hours about everything and nothing. That we can sit in perfect silence and still feel more connected than ever. But what means the most is how safe I feel with you. Safe to be vulnerable. Safe to be imperfect. Safe to dream and fail and try again. You have seen every side of me—the good, the bad, the scared—and you’ve loved me through it all. You’re not just the love of my life. You’re my best friend. You’re my home. You’re the one I want to build a future with, side by side, through all of life’s storms and celebrations. I don’t know how I got so lucky to find someone who feels like my mirror and my missing piece all at once. But I do know this: I want to spend my forever making sure you never doubt how loved you are. Thank you for being my person. Thank you for choosing me. Thank you for being both my best friend and my soulmate. I promise to always choose you too.`,
+      initials: "Your Man",
+    },
+    {
+      type: "video",
+      src: "./Olamide2.mp4",
+      header: "Queen and More🥲🥰",
+      text: `have sense abeg and don’t break our husbands heart 😭😭😭Man like this are rare`,
+      initials: "Peacock",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -99,7 +103,6 @@ You will always hold a special place in my heart😩🥹I love you baby`,
 
   return (
     <div className="z-[101] relative flex flex-col items-center min-h-screen bg-[#F5F0EA] BirthdayDiv">
-
       <div className=" relative w-[100%] h-[300px] bg-white shadow-lg overflow-hidden z-[10]">
         {slides[currentIndex].type === "image" && (
           <img
@@ -134,7 +137,7 @@ You will always hold a special place in my heart😩🥹I love you baby`,
       </div>
 
       <div className="z-[101] mt-6 w-[80%] max-w-xs  p-4 bg-[#F5F0EA] text-center">
-         <h1 className="w-[100%] text-center text-[2rem] font-qwitcher mb-4">
+        <h1 className="w-[100%] text-center text-[2rem] font-qwitcher mb-4">
           {slides[currentIndex].header}
         </h1>
         <p className="text-[#871058] text-lg font-quicksand ">
