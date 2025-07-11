@@ -118,6 +118,7 @@ const BirthdayCarousel = () => {
             autoPlay
             loop
             playsInline
+            controls={false}
             className="w-full h-full object-cover"
           />
         )}
