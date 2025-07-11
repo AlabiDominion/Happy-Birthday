@@ -8,6 +8,7 @@ export default {
     extend: {
        fontFamily: {
         quicksand: ['Quicksand', 'sans-serif'],
+        qwitcher: ['"Qwitcher Grypen"', 'cursive'],
       },
     },
   },

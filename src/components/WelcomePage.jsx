@@ -4,7 +4,7 @@ const WelcomePage = ({ onStart }) => {
       <img className="mb-2 mt-[3rem]" src="./logo.png" alt="logo" />
       <img src="./HAPPY.png" alt="Happy" />
       <div className=" w-[85%] relative bg-white h-[350px] mt-[2rem] mb-[2rem] p-4">
-        <div className="w-full  h-[80%] VideoContainer border-[1px] border-black">
+        <div className="w-full  h-[80%] VideoContainer">
           <video className="w-full h-full object-cover" autoPlay loop src="./HomeScreen.mp4"></video>
         </div>
         <img

@@ -11,6 +11,9 @@
 .welcomepageLoader{
     animation: slide-in-from-down 0.8s ease-in-out;
 }
+.BirthdayDiv{
+  animation: slide-in-from-left 0.8s ease-in-out;
+}
 #wifi-loader {
   --background: #62abff;
   --front-color: #871058;
@@ -231,3 +234,16 @@
   
 }
  
+@keyframes slide-in-from-left {
+    0% {
+        transform: translateX(-30%);
+        opacity: 0.2;
+        
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+       
+    }
+  
+}
