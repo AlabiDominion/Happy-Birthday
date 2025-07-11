@@ -38,7 +38,7 @@ const BirthdayCarousel = () => {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-[#F5F0EA] overflow-hidden BirthdayDiv">
       {/* Decorative background circles */}
-      <div className=" flex flex-col items-center justify-center w-[500px] bg-[#F5F0EA] h-[500px] border-[4px] border-[#837A6E] rounded-full absolute  -top-[32%] z-[99]">
+      <div className=" flex flex-col items-center justify-center w-[500px] bg-[#F5F0EA] h-[500px] border-[4px] border-[#837A6E] rounded-full absolute  -top-[35%] z-[99]">
         <img className="mt-[10rem] mb-4 " src="./logo.png" alt="" />
         <img className="absolute bottom-[22%]" src="./HAPPY.png" alt="" />
         <img
@@ -48,13 +48,14 @@ const BirthdayCarousel = () => {
         />
       </div>
 
-      <div className="w-[600px] h-[600px] bg-[#F5F0EA] rounded-full absolute -bottom-[35%] z-[99] flex flex-col items-center p-4">
-        <h1 className="w-[30%] text-center text-[2rem] font-qwitcher mb-4">
-          {slides[currentIndex].header}
-        </h1>
+      <div className="w-[600px] h-[600px] bg-[#F5F0EA] rounded-full absolute -bottom-[40%] z-[99] flex flex-col items-center p-4">
+       
       </div>
 
-      <div className="absolute bottom-20 z-[101] mt-6 w-[80%] max-w-xs border border-[#837A6E] rounded-lg p-4 overflow-y-scroll max-h-[200px] h-[200px] bg-[#F5F0EA] text-center">
+      <div className="absolute bottom-0 z-[101] mt-6 w-[80%] max-w-xs border border-[#837A6E] rounded-lg p-4 overflow-y-scroll max-h-[300px] h-[280px] bg-[#F5F0EA] text-center">
+         <h1 className="w-[100%] text-center text-[2rem] font-qwitcher mb-4">
+          {slides[currentIndex].header}
+        </h1>
         <p className="text-[#871058] text-lg font-quicksand ">
           {slides[currentIndex].text}
         </p>
