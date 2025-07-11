@@ -20,7 +20,17 @@ const BirthdayCarousel = () => {
       type: "video",
       src: "./olamide.mp4",
       header: "Fish 🐟",
-      text: `My baby ❤️ You light up my world.`,
+      text: `Temitopeee!!!!
+My advicer
+My sister
+My special friend 
+Words can’t even describe how much I love and care for you
+At first I didn’t know we would becoming this close from roommates to sisters 
+I really don’t regret meeting you
+You are so nice, sweet and God fearing mentioned this three words cause they simply describe you,anyone should be lucky to have you in their life 
+On this day I pray God grants you all your heart desire and may his grace shine upon you!!!
+You shall soar higher unexpectedly and you shall be a great person
+You will always hold a special place in my heart😩🥹I love you baby`,
       initials: "Peacock",
     },
     {
