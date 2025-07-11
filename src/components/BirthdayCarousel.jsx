@@ -23,6 +23,58 @@ const BirthdayCarousel = () => {
       text: `My baby ❤️ You light up my world.`,
       initials: "Peacock",
     },
+    {
+      type: "image",
+      src: "./Yemi1.jpg",
+      header: "My Top Biscuit 🍪",
+      text: `Dear Temitopssss, Like I used to call you, my top biscuit. Mysweet girl, you're such an amazing person and a wonderful friend. The first time I saw you, in my head I was like this one looks like a spoilt rude girl and then I realised you were my roommate in 100lvl first semester but turns out you're the opposite of what I thought. I just want to use this opportunity to tell you how much I love you and I will always have your back and be there for you. You're not just a friend but a sister God gave to me the first day I entered Babcock. Happy Birthday my sweetheart, Have a wonderful day and I pray all your heart desires come to pass in Jesus name, Amen.Love you baby girl. With love`,
+      initials: "Yemi 💗",
+    },
+    {
+      type: "video",
+      src: "./Bisola1.mp4",
+      header: "My number one cheerleader 🥳",
+      text: `Temitops, 
+      My number one cheerleader, 
+      My personal hype man
+      I remember when we met in 100l as roommates and I thought she was going to be the ‘Don’t sit on my bed’ type of gurl not knowing she’s the craziest of them all. 
+      
+      Being friends with you was not a choice cause I had to see your crazy ass almost everyday But staying friends with you is one of the best decisions I made in that school. We’ve been through so much together and I love that we got to grow together. 
+      
+      She’s also one of the realest people I know. She says things how it is as she no get filter. I’m trying so hard not to insult the weyrey but I can’t help it abeg😭
+      
+      There’s no way you can hang out with her without laughing… she’s more than a clown. And her smile! don’t get me started …
+      
+      I love how you always be yourself 
+      I love how cheerful you are 
+      I love how you honest you are 
+      I love you inside out 
+      There’s nothing not to love about you gurl, I mean aside the fact that you don’t have sense You’re still the best❤
+      
+      May God grant all your heart desires. Long life, good health, plenty moneyyy and happiness, may God grant it to you. 
+      
+      Happy birthday baby gurl🎊💃🏾 
+      Start acting your age this woman!`,
+      initials: "~Bisola",
+    },
+    {
+      type: "image",
+      src: "./Bisola2.jpg",
+      header: "My Personal hype man 🥰",
+      text: `
+      
+      Happy birthday baby gurl🎊💃🏾 
+      Start acting your age this woman!`,
+      initials: "~Bisola",
+    },
+    {
+      type: "image",
+      src: "./Tumise2.jpg",
+      header: "My Swwetheart 🥰",
+      text: `An enbordement of beauty, grace, and love.
+      Happy birthday to you, my sweetheart. You are a blessing to me and everyone around you. Your smile lights up the room, and your laughter is music to my ears. I am grateful for every moment we share, and I cherish the bond we have. May this year bring you as much joy as you bring to others. Keep shining, my love!`,
+      initials: "Tumise",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,36 +88,9 @@ const BirthdayCarousel = () => {
   };
 
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen bg-[#F5F0EA] overflow-hidden BirthdayDiv">
-      {/* Decorative background circles */}
-      <div className=" flex flex-col items-center justify-center w-[500px] bg-[#F5F0EA] h-[500px] border-[4px] border-[#837A6E] rounded-full absolute  -top-[35%] z-[99]">
-        <img className="mt-[10rem] mb-4 " src="./logo.png" alt="" />
-        <img className="absolute bottom-[22%]" src="./HAPPY.png" alt="" />
-        <img
-          className="w-[300px] bottom-[2%] absolute"
-          src="./HappyBirthdayText.png"
-          alt=""
-        />
-      </div>
+    <div className="z-[101] relative flex flex-col items-center min-h-screen bg-[#F5F0EA] BirthdayDiv">
 
-      <div className="w-[600px] h-[600px] bg-[#F5F0EA] rounded-full absolute -bottom-[40%] z-[99] flex flex-col items-center p-4">
-       
-      </div>
-
-      <div className="absolute bottom-0 z-[101] mt-6 w-[80%] max-w-xs border border-[#837A6E] rounded-lg p-4 overflow-y-scroll max-h-[300px] h-[280px] bg-[#F5F0EA] text-center">
-         <h1 className="w-[100%] text-center text-[2rem] font-qwitcher mb-4">
-          {slides[currentIndex].header}
-        </h1>
-        <p className="text-[#871058] text-lg font-quicksand ">
-          {slides[currentIndex].text}
-        </p>
-      </div>
-
-      <p className="absolute bottom-5 right-5 rotate-[-40deg] z-[102] font-qwitcher text-[2rem]">
-        {slides[currentIndex].initials}
-      </p>
-      {/* Carousel content */}
-      <div className=" relative w-[100%] h-[300px] bg-white rounded-lg shadow-lg overflow-hidden z-[10]">
+      <div className=" relative w-[100%] h-[300px] bg-white shadow-lg overflow-hidden z-[10]">
         {slides[currentIndex].type === "image" && (
           <img
             src={slides[currentIndex].src}
@@ -77,9 +102,7 @@ const BirthdayCarousel = () => {
         {slides[currentIndex].type === "video" && (
           <video
             src={slides[currentIndex].src}
-            controls
             autoPlay
-            muted
             loop
             className="w-full h-full object-cover"
           />
@@ -99,6 +122,19 @@ const BirthdayCarousel = () => {
           ❯
         </button>
       </div>
+
+      <div className="z-[101] mt-6 w-[80%] max-w-xs  p-4 bg-[#F5F0EA] text-center">
+         <h1 className="w-[100%] text-center text-[2rem] font-qwitcher mb-4">
+          {slides[currentIndex].header}
+        </h1>
+        <p className="text-[#871058] text-lg font-quicksand ">
+          {slides[currentIndex].text}
+        </p>
+      </div>
+
+      <p className="fixed bottom-5 right-5 rotate-[-40deg] z-[102] font-qwitcher text-[2rem]">
+        {slides[currentIndex].initials}
+      </p>
     </div>
   );
 };
