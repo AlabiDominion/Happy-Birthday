@@ -12,7 +12,7 @@ const LoginPage = ({ onLogin }) => {
     setLoading(true);
 
     setTimeout(() => {
-      if (inputCode === "2025" && inputName === "Pookie") {
+      if (inputCode === "InfiniteLove" && inputName === "Pookie") {
         onLogin();
       } else {
         setError("Invalid code. Try again!");
