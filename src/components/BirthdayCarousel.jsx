@@ -89,6 +89,13 @@ const BirthdayCarousel = () => {
       text: `have sense abeg and don’t break our husbands heart 😭😭😭Man like this are rare`,
       initials: "Peacock",
     },
+    {
+      type: "video",
+      src: "./Deborah.mp4",
+      header: "TO BE BIG NOSE TOPE",
+      text: `Dear Tops, How are you, happy birthday is your special day and I pray God will add many happiness and success in any thing you lay your hands on and the people around you. I pray that God will bless you and your mum and guide and protect you all the days of your life. To my Closet and Dearest friend topery 🤗 I remember the first time we met in 100 2nd semester. In Amade’s room I really didn’t know you then, how we started talking I don’t remember I can’t believe how much time has gone. I truly enjoy our funny, silly, loud and happy moments. You are truly one I could confide in and you always have the right thing to say. You are an amazing person and one in a million don’t let anyone tell you otherwise. Thank you for becoming part of my life and story and I know there are many years for us to take on this journey called life together. From your lovely DEBOOOOO❤`,
+      initials: "DEBOOOOO💗",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
